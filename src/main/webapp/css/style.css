@@ -1,0 +1,132 @@
+.error {
+    color: red;
+    font-size: 25px
+}
+
+table {
+    border-collapse: collapse;
+    background-color: #333;
+    width: 80%;
+}
+
+.str {
+    font-size: 20px;
+}
+
+.slct {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+th {
+    width: 50%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background-color: rgba(43, 43, 44, 0.88);
+    color: white;
+}
+
+.tbl th, td {
+
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+}
+
+.navbar a,
+.navbar .frm {
+    flex-grow: 1;
+    flex-basis: 0;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: ease-in-out 0.3s;
+}
+
+#fileUploadForm {
+    flex-grow: 1;
+}
+
+
+.navbar a:hover,
+.navbar .frm:hover {
+    background-color: dimgrey;
+}
+
+
+.login body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.login form {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login label {
+    display: block;
+    margin: 10px 0;
+}
+
+.login input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+.login input[type="submit"] {
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+
+
+.login a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.login a:hover {
+    text-decoration: underline;
+}
